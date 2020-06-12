@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\Android\**" />
+    <Compile Remove="Entities\Android\**" />
+    <Content Remove="Controllers\Android\**" />
+    <Content Remove="Entities\Android\**" />
+    <EmbeddedResource Remove="Controllers\Android\**" />
+    <EmbeddedResource Remove="Entities\Android\**" />
+    <None Remove="Controllers\Android\**" />
+    <None Remove="Entities\Android\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Migrations\20200326202437_Initial.cs" />
     <Compile Remove="Migrations\20200326202437_Initial.Designer.cs" />
     <Compile Remove="Migrations\20200326204408_Initial.cs" />
@@ -55,11 +66,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\Android\" />
-    <Folder Include="Entities\Android\" />
   </ItemGroup>
 
 
