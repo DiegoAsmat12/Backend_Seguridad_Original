@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200326202437_Initial.cs" />
+    <Compile Remove="Migrations\20200326202437_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200326204408_Initial.cs" />
+    <Compile Remove="Migrations\20200326204408_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200326223344_sistema_login.cs" />
+    <Compile Remove="Migrations\20200326223344_sistema_login.Designer.cs" />
+    <Compile Remove="Migrations\20200326223457_Camaras.cs" />
+    <Compile Remove="Migrations\20200326223457_Camaras.Designer.cs" />
+    <Compile Remove="Migrations\20200326234140_sistema_login_software.cs" />
+    <Compile Remove="Migrations\20200326234140_sistema_login_software.Designer.cs" />
+    <Compile Remove="Migrations\20200327124900_sistema_login_software.cs" />
+    <Compile Remove="Migrations\20200327124900_sistema_login_software.Designer.cs" />
+    <Compile Remove="Migrations\20200327170337_sistema_login_software.cs" />
+    <Compile Remove="Migrations\20200327170337_sistema_login_software.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200327171222_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200327171222_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329150815_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329150815_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329151246_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329151246_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329194913_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329194913_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329195210_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329195210_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329212500_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200329212500_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200330002217_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200330002217_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200330193710_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200330193710_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200331142212_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200331142212_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200331153735_Initial.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200331153735_Initial.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200402205557_PlacaListaNegra.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200402205557_PlacaListaNegra.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200402210419_PlacaListaNegra.cs" />
+    <Compile Remove="Migrations\ApplicationSoftwareDb\20200402210419_PlacaListaNegra.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Android\" />
+    <Folder Include="Entities\Android\" />
+  </ItemGroup>
+
+
+</Project>
